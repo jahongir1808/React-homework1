@@ -30,6 +30,9 @@ header {
             }
           }
         }
+        @media (max-width: 1200px) {
+          display: none;
+        }
       }
       .nav-btns {
         display: flex;

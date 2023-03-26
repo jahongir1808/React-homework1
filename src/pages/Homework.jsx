@@ -7,6 +7,7 @@ import OurProduction from "../components/ourProduction";
 import About from "./../components/about";
 import Comand from "../components/comand";
 import News from "../components/news";
+import FooterTwo from "../components/footer2";
 
 export default class Homework extends Component {
   render() {
@@ -22,6 +23,7 @@ export default class Homework extends Component {
           <Comand />
           <News />
         </main>
+        <FooterTwo />
       </>
     );
   }
