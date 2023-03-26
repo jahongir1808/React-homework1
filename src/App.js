@@ -1,26 +1,10 @@
 import "./App.css";
-import Home from "./components/home/Home";
-import Footer from "./components/footer/Footer";
-import Navbar from "./components/navbar/Navbar";
-import Product from "./components/product/Product";
-import Strategies from "./components/strategies/Strategies";
-import Price from "./components/price/Price";
-import Clients from "./components/clients/Clients";
+import Homework from "./pages/Homework";
+// import Lesson2 from "./pages/Lesson2";
+// import Lesson1 from './pages/Lesson1';
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <main>
-        <Home />
-        <Product />
-        <Strategies />
-        <Price />
-        <Clients />
-      </main>
-      <Footer />
-    </>
-  );
+  return <Homework />;
 }
 
 export default App;
