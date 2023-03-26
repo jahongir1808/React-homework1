@@ -5,6 +5,8 @@ import Company from "./../components/company";
 import Sertificate from "../components/sertificate";
 import OurProduction from "../components/ourProduction";
 import About from "./../components/about";
+import Comand from "../components/comand";
+import News from "../components/news";
 
 export default class Homework extends Component {
   render() {
@@ -17,6 +19,8 @@ export default class Homework extends Component {
           <Sertificate />
           <OurProduction />
           <About />
+          <Comand />
+          <News />
         </main>
       </>
     );
